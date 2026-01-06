@@ -38,8 +38,8 @@ export const Footer: React.FC = () => {
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <p>&copy; 2026 Optarix Research. All rights reserved.</p>
           <div className="space-x-4 mt-4 md:mt-0">
-            <a href="#privacy" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="https://privacypolicy.optarixresearch.com/" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="https://terms.optarixresearch.com/" className="hover:text-white transition-colors">Terms of Service</a>
           </div>
         </div>
 
