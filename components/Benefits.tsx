@@ -4,12 +4,15 @@ import { Clock, Users, Target, DollarSign, Award, Repeat } from 'lucide-react';
 import { StatItem } from '../types';
 
 const stats: (StatItem & { icon: any })[] = [
-  { value: "71.4%", label: "Faster Hiring", description: "18 days avg vs 31 days", icon: Clock },
+  { value: "71.4%", label: "Faster Hiring", description: "16 days average vs 31 days", icon: Clock },
   { value: "10X", label: "Candidate Volume", description: "Access to passive talent", icon: Users },
   { value: "12X", label: "More Quality", description: "High-precision candidates", icon: Award },
   { value: "97.5%", label: "Precision", description: "Talent mapping accuracy", icon: Target },
   { value: "60%", label: "Cost Effective", description: "Reduced cost per hire", icon: DollarSign },
   { value: "91%", label: "Retention Rate", description: "First-year retention", icon: Repeat },
+    { value: "97.5%", label: "Precision", description: "Talent mapping accuracy", icon: Target },
+  { value: "60%", label: "Cost Effective", description: "Reduced cost per hire", icon: DollarSign },
+  { value: "91%", label: "Retention Rate", description: "First-year retention", icon: Repeat }
 ];
 
 export const Benefits: React.FC = () => {
