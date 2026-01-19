@@ -10,9 +10,7 @@ const stats: (StatItem & { icon: any })[] = [
   { value: "97.5%", label: "Precision", description: "Talent mapping accuracy", icon: Target },
   { value: "60%", label: "Cost Effective", description: "Reduced cost per hire", icon: DollarSign },
   { value: "91%", label: "Retention Rate", description: "First-year retention", icon: Repeat },
-    { value: "97.5%", label: "Precision", description: "Talent mapping accuracy", icon: Target },
-  { value: "60%", label: "Cost Effective", description: "Reduced cost per hire", icon: DollarSign },
-  { value: "91%", label: "Retention Rate", description: "First-year retention", icon: Repeat }
+  
 ];
 
 export const Benefits: React.FC = () => {
