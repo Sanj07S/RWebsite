@@ -32,6 +32,12 @@ const steps = [
     title: "Make a Hire",
     desc: "Final placement achieved efficiently, targeting the 18-day mark.",
     color: "bg-optarix-coral"
+  },
+ {
+    icon: CheckCircle1,
+    title: "Make a Hire New",
+    desc: "Final placement achieved efficiently, targeting the 18-day mark. Updated!!",
+    color: "bg-indigo-600"
   }
 ];
  
