@@ -7,32 +7,32 @@ const steps = [
     icon: Power,
     title: "Activate Job",
     desc: "Takes minutes to get the process rolling.",
-    color: "bg-blue-500"
+    color: "bg-blue-500",
   },
   {
     icon: FileSearch,
     title: "Review Data Map",
     desc: "Access precision-matched, scored, and ranked candidates.",
-    color: "bg-cyan-500"
+    color: "bg-cyan-500",
   },
   {
     icon: Mail,
     title: "Interested CVs to Inbox",
     desc: "Candidates are pre-vetted and warmed up, ready to interview.",
-    color: "bg-purple-500"
+    color: "bg-purple-500",
   },
   {
     icon: Users,
     title: "Interview Candidates",
     desc: "Human teams handle high-touch vetting, negotiation, and structured interviews.",
-    color: "bg-indigo-600"
+    color: "bg-indigo-600",
   },
   {
     icon: CheckCircle,
     title: "Make a Hire",
     desc: "Final placement achieved efficiently, targeting the 18-day mark.",
-    color: "bg-optarix-coral"
-  }
+    color: "bg-optarix-coral",
+  },
 ];
  
 export const Approach: React.FC = () => {
