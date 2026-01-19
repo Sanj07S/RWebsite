@@ -32,11 +32,6 @@ const steps = [
     title: "Rapid Placement",
     desc: "Final placement achieved efficiently, targeting the 16-day mark.",
     color: "bg-optarix-coral"
-  }, {
-    icon: Users,
-    title: "Interview Candidates",
-    desc: "Human teams handle high-touch vetting, negotiation, and structured interviews.",
-    color: "bg-indigo-600"
   },
 ];
  
