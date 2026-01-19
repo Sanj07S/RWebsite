@@ -1,12 +1,12 @@
 import React from 'react';
 import { Reveal } from './Reveal';
-import { Power, FileSearch, Mail, Users, CheckCircle } from 'lucide-react';
+import { Power, FileSearch, Mail, Users, CheckCircle, Rocket } from 'lucide-react';
  
 const steps = [
   {
-    icon: Power,
-    title: "Activate Job",
-    desc: "Takes minutes to get the process rolling.",
+    icon: Rocket,
+    title: "Instant Launch",
+    desc: "Start your search in minutes by sharing key job details.",
     color: "bg-blue-500",
   },
   {
