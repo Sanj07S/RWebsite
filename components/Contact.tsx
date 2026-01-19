@@ -33,7 +33,6 @@ export const Contact: React.FC = () => {
     })
       .then(() => {
         setStatus("success");
-        alert(`Thank you ${formData.name}. We have received your message!`);
         setFormData({
           name: "",
           email: "",
@@ -224,6 +223,9 @@ export const Contact: React.FC = () => {
                     </>
                   )}
                 </button>
+                {status === "success" && (
+                  <p>Thank You, your message submitted !</p>
+                )}
               </form>
             </div>
           </Reveal>
