@@ -1,22 +1,22 @@
 import React from 'react';
 import { Reveal } from './Reveal';
-import { Power, FileSearch, Mail, Users, CheckCircle,rocket-launch,filter-list, lock-open } from 'lucide-react';
+import { Power, FileSearch, Mail, Users, CheckCircle, MessageSquareTex, Rocket, ListChecks, UserCheck  } from 'lucide-react';
  
 const steps = [
   {
-    icon: rocket-launch,
+    icon: Rocket,
     title: "Instant Launch",
     desc: "Start your search in minutes by sharing key job details.",
     color: "bg-blue-500"
   },
   {
-    icon: filter-list,
+    icon: ListChecks,
     title: "Ranked Shortlist",
     desc: "View a list of candidates precision-matched and ranked for your specific vacancy.",
     color: "bg-cyan-500"
   },
   {
-    icon: lock-open,
+    icon: UserCheck,
     title: "Unlock the High-Velocity Talent Pipeline ",
     desc: "Receive CVs from pre-screened candidates who have already confirmed their interest in the role.",
     color: "bg-purple-500"
