@@ -1,6 +1,6 @@
 import React from 'react';
 import { Reveal } from './Reveal';
-import { Power, FileSearch, Mail, Users, CheckCircle } from 'lucide-react';
+import { Power, FileSearch, Mail, Users, CheckCircle,rocket-launch,filter-list, lock-open } from 'lucide-react';
  
 const steps = [
   {
