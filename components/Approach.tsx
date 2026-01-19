@@ -4,21 +4,21 @@ import { Power, FileSearch, Mail, Users, CheckCircle } from 'lucide-react';
  
 const steps = [
   {
-    icon: Power,
-    title: "Activate Job",
-    desc: "Takes minutes to get the process rolling.",
+    icon: rocket-launch,
+    title: "Instant Launch",
+    desc: "Start your search in minutes by sharing key job details.",
     color: "bg-blue-500"
   },
   {
-    icon: FileSearch,
-    title: "Review Data Map",
-    desc: "Access precision-matched, scored, and ranked candidates.",
+    icon: filter-list,
+    title: "Ranked Shortlist",
+    desc: "View a list of candidates precision-matched and ranked for your specific vacancy.",
     color: "bg-cyan-500"
   },
   {
-    icon: Mail,
-    title: "Interested CVs to Inbox",
-    desc: "Candidates are pre-vetted and warmed up, ready to interview.",
+    icon: lock-open,
+    title: "Unlock the High-Velocity Talent Pipeline ",
+    desc: "Receive CVs from pre-screened candidates who have already confirmed their interest in the role.",
     color: "bg-purple-500"
   },
   {
@@ -29,15 +29,9 @@ const steps = [
   },
   {
     icon: CheckCircle,
-    title: "Make a Hire",
-    desc: "Final placement achieved efficiently, targeting the 18-day mark.",
+    title: "Rapid Placement",
+    desc: "Final placement achieved efficiently, targeting the 16-day mark.",
     color: "bg-optarix-coral"
-  },
- {
-    icon: CheckCircle1,
-    title: "Make a Hire New",
-    desc: "Final placement achieved efficiently, targeting the 18-day mark. Updated!!",
-    color: "bg-indigo-600"
   }
 ];
  
