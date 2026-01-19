@@ -5,6 +5,7 @@ import { Power, FileSearch, Mail, Users, CheckCircle, Rocket } from 'lucide-reac
 const steps = [
   {
     icon: Rocket,
+    icon: Rocket,
     title: "Instant Launch",
     desc: "Start your search in minutes by sharing key job details.",
     color: "bg-blue-500",
@@ -32,7 +33,7 @@ const steps = [
     title: "Make a Hire",
     desc: "Final placement achieved efficiently, targeting the 18-day mark.",
     color: "bg-optarix-coral",
-  },
+  },,
 ];
  
 export const Approach: React.FC = () => {
