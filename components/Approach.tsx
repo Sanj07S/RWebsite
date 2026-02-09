@@ -51,12 +51,12 @@ export const Approach: React.FC = () => {
               Built for Speed
             </h2>
             <p className="text-xl text-optarix-purple font-medium mt-2">
-              Your 18-Day Hiring Cycle
+              Your 20-Day Hiring Cycle
             </p>
             <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
-              We combine the power of AI with specialized human oversight. The
-              machine handles scale and pattern recognition; our experts ensure
-              calibration and the ethical call.
+              We utilize a specialized research methodology executed through a
+              systematic process. This framework handles scale and market
+              complexity to ensure precise, predictable outcomes
             </p>
           </Reveal>
         </div>

@@ -32,7 +32,7 @@ export const Services: React.FC = () => {
               <p className="text-gray-600">
                 We specialize in identifying and recruiting top-tier leadership
                 talent and specialized roles that drive business growth. By
-                leveraging <strong>advanced search methodologies </strong>and
+                leveraging advanced search methodologies and
                 in-depth research, we ensure a faster turnaround time tailored
                 to align with your company's vision and culture.
               </p>
@@ -50,7 +50,7 @@ export const Services: React.FC = () => {
               </h3>
               <p className="text-gray-600">
                 From sourcing and screening to onboarding, we manage the entire
-                hiring lifecycle. Our <strong>tech-enabled process </strong>
+                hiring lifecycle. Our tech-enabled process
                 tech-enabled process accesses huge, untapped passive talent
                 pools—providing 10x candidate volume. We deliver customized
                 talent solutions that ensure faster hiring and reduced costs.

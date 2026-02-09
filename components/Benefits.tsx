@@ -22,24 +22,14 @@ const stats: (StatItem & { icon: any })[] = [
     description: "High-precision candidates",
     icon: Award,
   },
-  {
-    value: "97.5%",
-    label: "Start Leading Talent Strategy",
-    description: "Talent mapping accuracy",
-    icon: Target,
-  },
+  
   {
     value: "60%",
     label: "Highly cost effective",
     description: "Reduced cost per hire",
     icon: DollarSign,
   },
-  {
-    value: "91%",
-    label: "Stop Managing Bottlenecks",
-    description: "First-year retention",
-    icon: Repeat,
-  },
+
 ];
 
 export const Benefits: React.FC = () => {
@@ -70,28 +60,28 @@ export const Benefits: React.FC = () => {
           </Reveal>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {stats.map((stat, index) => (
             <Reveal key={index} delay={index * 100}>
-              <div className="bg-white/5 backdrop-blur-md border border-white/10 p-6 rounded-2xl hover:bg-white/10 transition-colors duration-300 flex items-start space-x-4">
+              <div className="bg-white/5 backdrop-blur-md border border-white/10 p-6 rounded-2xl hover:bg-white/10 transition-colors duration-300 flex items-center space-x-4">
                 <div className="bg-optarix-coral/20 p-3 rounded-lg text-optarix-coral">
                   <stat.icon size={28} />
                 </div>
                 <div>
-                  <div className="text-4xl font-bold font-heading text-white mb-1">
+                  {/* <div className="text-4xl font-bold font-heading text-white mb-1">
                     {stat.value}
-                  </div>
-                  <div className="text-optarix-cyan font-semibold text-sm uppercase tracking-wider mb-2">
+                  </div> */}
+                  <div className="text-optarix-cyan font-semibold text-sm uppercase tracking-wider">
                     {stat.label}
                   </div>
-                  <p className="text-gray-400 text-sm">{stat.description}</p>
+                  {/* <p className="text-gray-400 text-sm">{stat.description}</p> */}
                 </div>
               </div>
             </Reveal>
           ))}
         </div>
 
-        <div className="mt-16 flex justify-center">
+        {/* <div className="mt-16 flex justify-center">
           <Reveal delay={600}>
             <div className="bg-white/10 rounded-2xl p-8 max-w-4xl mx-auto backdrop-blur-sm border border-white/10">
               <h3 className="text-2xl font-bold mb-4 text-center">
@@ -106,7 +96,7 @@ export const Benefits: React.FC = () => {
               </p>
             </div>
           </Reveal>
-        </div>
+        </div> */}
       </div>
     </section>
   );

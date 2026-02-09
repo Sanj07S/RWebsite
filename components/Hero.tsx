@@ -43,8 +43,7 @@ export const Hero: React.FC = () => {
               fifteen years of experience in executive search and recruitment.
               We shift the conversation from "effort and luck" to predictable,
               scalable outcomes, guaranteeing faster hiring and exceptional
-              quality by leveraging <strong>advanced market intelligence</strong> as
-              your central strategic partner.
+              quality by leveraging advanced market intelligence.
             </p>
           </Reveal>
 
