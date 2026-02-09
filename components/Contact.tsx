@@ -66,21 +66,21 @@ export const Contact: React.FC = () => {
               </h2>
               <p className="text-gray-600 mt-4 text-lg">
                 Ready to transform your recruitment process? Schedule a
-                consultation to discuss how our AI-enhanced engine can build
-                your team faster.
+                consultation to discuss how our intelligence engine can build
+                your team faster
               </p>
             </Reveal>
 
             <Reveal delay={200}>
               <div className="space-y-6 mt-8">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-optarix-light p-3 rounded-full text-optarix-blue">
+                  {/* <div className="bg-optarix-light p-3 rounded-full text-optarix-blue">
                     <Phone size={24} />
-                  </div>
-                  <div>
+                  </div> */}
+                  {/* <div>
                     <h4 className="font-bold text-gray-800">Call Us</h4>
-                    <p className="text-gray-600">+91 9818962797</p>
-                  </div>
+                    <p className="text-gray-600"></p>
+                  </div> */}
                 </div>
 
                 <div className="flex items-start space-x-4">

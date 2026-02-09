@@ -13,35 +13,41 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-optarix-blue overflow-hidden pt-20">
-     
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center bg-optarix-blue overflow-hidden pt-20"
+    >
       {/* Background Shapes */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-optarix-dark to-transparent opacity-50 z-0"></div>
       <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-optarix-purple rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse-slow"></div>
       <div className="absolute top-24 right-24 w-72 h-72 bg-optarix-cyan rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse-slow"></div>
- 
+
       <div className="container mx-auto px-6 relative z-10 grid md:grid-cols-2 gap-12 items-center">
-       
         {/* Content */}
         <div className="text-white space-y-8">
-         
           <Reveal delay={200}>
             <h1 className="text-4xl md:text-6xl font-heading font-bold leading-tight">
-              Scalable <span className="text-transparent bg-clip-text bg-gradient-to-r from-optarix-cyan to-optarix-purple">Precision</span>
+              Scalable{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-optarix-cyan to-optarix-purple">
+                Precision
+              </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-heading font-semibold mt-2 text-gray-200">
-              AI-Enhanced Executive Search And Recruitment
+              Intelligence-Led Executive Search And Recruitment
             </h2>
           </Reveal>
- 
+
           <Reveal delay={400}>
             <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
-              Optarix Research is led by a skilled professional with over fifteen years of experience in executive search and recruitment.
-              We shift the conversation from "effort and luck" to predictable, scalable outcomes,
-              guaranteeing faster hiring and exceptional quality by leveraging AI as your central strategic partner.
+              Optarix Research is led by a skilled professional with over
+              fifteen years of experience in executive search and recruitment.
+              We shift the conversation from "effort and luck" to predictable,
+              scalable outcomes, guaranteeing faster hiring and exceptional
+              quality by leveraging <strong>advanced market intelligence</strong> as
+              your central strategic partner.
             </p>
           </Reveal>
- 
+
           <Reveal delay={600}>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -54,28 +60,32 @@ export const Hero: React.FC = () => {
               </a>
             </div>
           </Reveal>
- 
+
           <Reveal delay={800}>
             <div className="grid grid-cols-3 gap-4 pt-8 border-t border-white/10">
               <div className="flex flex-col items-start">
-                 <ShieldCheck className="w-6 h-6 text-optarix-cyan mb-2" />
-                 <span className="text-sm font-bold">15+ Years</span>
-                 <span className="text-xs text-gray-400">Experience</span>
+                <ShieldCheck className="w-6 h-6 text-optarix-cyan mb-2" />
+                <span className="text-sm font-bold">15+ Years</span>
+                <span className="text-xs text-gray-400">Experience</span>
               </div>
               <div className="flex flex-col items-start">
-                 <TrendingUp className="w-6 h-6 text-optarix-cyan mb-2" />
-                 <span className="text-sm font-bold">Fortune 500</span>
-                 <span className="text-xs text-gray-400">Proven Track Record</span>
+                <TrendingUp className="w-6 h-6 text-optarix-cyan mb-2" />
+                <span className="text-sm font-bold">Fortune 500</span>
+                <span className="text-xs text-gray-400">
+                  Proven Track Record
+                </span>
               </div>
-              <div className="flex flex-col items-start">
-                 <Users className="w-6 h-6 text-optarix-cyan mb-2" />
-                 <span className="text-sm font-bold">AI-Powered</span>
-                 <span className="text-xs text-gray-400">Precision Matching</span>
-              </div>
+              {/* <div className="flex flex-col items-start">
+                <Users className="w-6 h-6 text-optarix-cyan mb-2" />
+                <span className="text-sm font-bold">AI-Powered</span>
+                <span className="text-xs text-gray-400">
+                  Precision Matching
+                </span>
+              </div> */}
             </div>
           </Reveal>
         </div>
- 
+
         {/* Visual/Image Area - Fully Responsive */}
         <div className="relative mt-12 md:mt-0 flex justify-center items-center">
           <Reveal delay={500}>
@@ -105,7 +115,6 @@ export const Hero: React.FC = () => {
             </div>
           </Reveal>
         </div>
- 
       </div>
     </section>
   );
