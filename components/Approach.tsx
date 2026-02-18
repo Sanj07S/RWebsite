@@ -18,25 +18,25 @@ const steps = [
   {
     icon: ListChecks,
     title: "Ranked Shortlist",
-    desc: "View a list of candidates precision-matched and ranked for your specific vacancy.",
+    desc: "Access pre-qualified candidates.",
     color: "bg-cyan-500",
   },
   {
     icon: UserCheck,
-    title: "Unlock the High-Velocity Talent Pipeline ",
-    desc: "Receive CVs from pre-screened candidates who have already confirmed their interest in the role.",
+    title: "Shortlist Delivery",
+    desc: "Receive profiles of pre-vetted professionals who are prepared to engage.",
     color: "bg-purple-500",
   },
   {
     icon: Users,
-    title: "Interview Candidates",
-    desc: "Human teams handle high-touch vetting, negotiation, and structured interviews.",
+    title: "Assessment",
+    desc: "Human-led evaluation, negotiation, and structured interviews.",
     color: "bg-indigo-600",
   },
   {
     icon: CheckCircle,
-    title: "Rapid Placement",
-    desc: "Final placement achieved efficiently, targeting the 16-day mark.",
+    title: "Final Appointment",
+    desc: "Speed without shortcuts — from brief to placement.",
     color: "bg-optarix-coral",
   },
 ];
@@ -50,19 +50,20 @@ export const Approach: React.FC = () => {
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-optarix-blue">
               Built for Speed
             </h2>
-            <p className="text-xl text-optarix-purple font-medium mt-2">
-              Your 20-Day Hiring Cycle
-            </p>
+
             <p className="mt-6 text-gray-600 max-w-2xl mx-auto">
-              We utilize a specialized research methodology executed through a
-              systematic process. This framework handles scale and market
-              complexity to ensure precise, predictable outcomes
+              Our specialised research methodology is engineered for pace. A
+              systematic framework that navigates market complexity — delivering
+              successful outcomes faster than conventional search
             </p>
           </Reveal>
         </div>
 
         <div className="relative">
           {/* Vertical Line */}
+          <p className="text-xl text-optarix-purple font-medium mb-8 text-center">
+              The Optarix Workflow
+            </p>
           <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-100 rounded-full"></div>
 
           <div className="space-y-12">

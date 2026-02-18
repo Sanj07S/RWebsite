@@ -14,7 +14,8 @@ export const Services: React.FC = () => {
             </h2>
             <div className="w-20 h-1 bg-optarix-coral mx-auto rounded-full"></div>
             <p className="mt-4 text-gray-600">
-              Comprehensive solutions tailored for speed, scale, and precision.
+              Comprehensive solutions designed for acceleration, depth, and
+              accuracy.
             </p>
           </Reveal>
         </div>
@@ -27,14 +28,14 @@ export const Services: React.FC = () => {
                 <Search className="w-8 h-8 text-optarix-blue group-hover:text-white transition-colors" />
               </div>
               <h3 className="text-2xl font-heading font-bold text-optarix-blue mb-4">
-                In-Depth Research-Based Executive Search
+                Evidence-Based Executive Search
               </h3>
               <p className="text-gray-600">
                 We specialize in identifying and recruiting top-tier leadership
-                talent and specialized roles that drive business growth. By
-                leveraging advanced search methodologies and
-                in-depth research, we ensure a faster turnaround time tailored
-                to align with your company's vision and culture.
+                talent that drive business growth. By leveraging advanced search
+                methodologies and in-depth research, we ensure a faster
+                turnaround time tailored to align with your company's vision and
+                culture.
               </p>
             </div>
           </Reveal>
@@ -46,15 +47,10 @@ export const Services: React.FC = () => {
                 <Globe className="w-8 h-8 text-optarix-purple group-hover:text-white transition-colors" />
               </div>
               <h3 className="text-2xl font-heading font-bold text-optarix-blue mb-4">
-                End-to-End Recruitment Solutions with Systematic Precision
+                End-to-End Talent Acquisition
               </h3>
               <p className="text-gray-600">
-                From sourcing and screening to onboarding, we manage the entire
-                hiring lifecycle. Our tech-enabled process
-                tech-enabled process accesses huge, untapped passive talent
-                pools—providing 10x candidate volume. We deliver customized
-                talent solutions that ensure faster hiring and reduced costs.
-              </p>
+                From initial sourcing to onboarding, we manage the complete hiring lifecycle. Our tech-enabled process accesses deep, untapped passive talent pools—providing a larger candidate volume. Every search is scoped, structured, and delivered to your specification </p>
             </div>
           </Reveal>
         </div>

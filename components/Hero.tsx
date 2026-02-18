@@ -27,23 +27,25 @@ export const Hero: React.FC = () => {
         <div className="text-white space-y-8">
           <Reveal delay={200}>
             <h1 className="text-4xl md:text-6xl font-heading font-bold leading-tight">
-              Scalable{" "}
+              Stop Searching{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-optarix-cyan to-optarix-purple">
-                Precision
+                Start Engineering
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-heading font-semibold mt-2 text-gray-200">
-              Intelligence-Led Executive Search And Recruitment
+              Specialist-Led. Research-Driven. Outcome-Focused Executive Search
+              And Recruitment
             </h2>
           </Reveal>
 
           <Reveal delay={400}>
             <p className="text-gray-300 text-lg leading-relaxed max-w-xl">
-              Optarix Research is led by a skilled professional with over
-              fifteen years of experience in executive search and recruitment.
-              We shift the conversation from "effort and luck" to predictable,
-              scalable outcomes, guaranteeing faster hiring and exceptional
-              quality by leveraging advanced market intelligence.
+              Led by a specialist with over fifteen years of experience in
+              global executive search and recruitment. We shift the conversation
+              from "effort and luck" to engineered outcomes. We deploy a
+              rigorous research framework that provides total coverage of the
+              talent landscape. Partner with us to ensure your next leader is
+              chosen from a position of complete market knowledge.
             </p>
           </Reveal>
 

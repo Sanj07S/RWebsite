@@ -65,9 +65,9 @@ export const Contact: React.FC = () => {
                 Get Started with Optarix Research
               </h2>
               <p className="text-gray-600 mt-4 text-lg">
-                Ready to transform your recruitment process? Schedule a
-                consultation to discuss how our intelligence engine can build
-                your team faster
+                Ready to transform how you build your organization? Schedule a
+                consultation to discuss how our research engine can build your
+                team efficiently and effectively.
               </p>
             </Reveal>
 

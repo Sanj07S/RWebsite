@@ -6,30 +6,29 @@ import { StatItem } from "../types";
 const stats: (StatItem & { icon: any })[] = [
   {
     value: "71.4%",
-    label: "Faster Hiring",
+    label: "Accelerated Timelines",
     description: "16 days average vs 31 days",
     icon: Clock,
   },
   {
     value: "10X",
-    label: "More passive talent candidate volume",
+    label: "Expanded Passive Candidate Reach",
     description: "Access to passive talent",
     icon: Users,
   },
   {
     value: "12X",
-    label: "Better Quality",
+    label: "Superior Candidate Caliber",
     description: "High-precision candidates",
     icon: Award,
   },
-  
+
   {
     value: "60%",
-    label: "Highly cost effective",
+    label: "Maximum hiring ROI",
     description: "Reduced cost per hire",
     icon: DollarSign,
   },
-
 ];
 
 export const Benefits: React.FC = () => {
@@ -49,13 +48,11 @@ export const Benefits: React.FC = () => {
           <Reveal>
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6">
               {" "}
-              Unlock More <span className="text-optarix-cyan">Quality </span>
-              Talent
+              Why <span className="text-optarix-cyan">Partner </span>With Us?
             </h2>
             <p className="text-gray-300 text-lg">
-              Optarix Research provides measurable outcomes that fundamentally
-              improve your recruitment ROI. Efficiency gains without sacrificing
-              the quality necessary for long-term success.
+              Optarix Research provides outcomes that fundamentally improve your
+              recruitment ROI — through a process engineered for speed.
             </p>
           </Reveal>
         </div>

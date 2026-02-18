@@ -50,9 +50,7 @@ export const Comparison: React.FC = () => {
                 </li>
                 <li className="flex items-start space-x-3">
                   <X className="text-red-500 flex-shrink-0 mt-1" size={20} />
-                  <span className="text-gray-600">
-                    31+ days average time to hire
-                  </span>
+                  <span className="text-gray-600">Extended timelines</span>
                 </li>
               </ul>
             </div>
@@ -83,7 +81,7 @@ export const Comparison: React.FC = () => {
                     size={20}
                   />
                   <span className="text-gray-700 font-medium">
-                    Access to 10X volume in passive pools
+                    Access to larger passive reservoirs
                   </span>
                 </li>
                 {/* <li className="flex items-start space-x-3">
@@ -101,7 +99,7 @@ export const Comparison: React.FC = () => {
                     size={20}
                   />
                   <span className="text-gray-700 font-medium">
-                    Structured screening reduces bias
+                    Structured screening
                   </span>
                 </li>
                 <li className="flex items-start space-x-3">
@@ -110,7 +108,7 @@ export const Comparison: React.FC = () => {
                     size={20}
                   />
                   <span className="text-gray-700 font-medium">
-                    20 days average time to hire
+                    Quick search completion
                   </span>
                 </li>
               </ul>
