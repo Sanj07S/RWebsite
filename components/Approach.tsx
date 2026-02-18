@@ -61,9 +61,9 @@ export const Approach: React.FC = () => {
 
         <div className="relative">
           {/* Vertical Line */}
-          <p className="text-xl text-optarix-purple font-medium mb-8 text-center">
+          {/* <p className="text-xl text-optarix-purple font-medium mb-8 text-center">
               The Optarix Workflow
-            </p>
+            </p> */}
           <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-100 rounded-full"></div>
 
           <div className="space-y-12">

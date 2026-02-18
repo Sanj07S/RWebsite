@@ -25,7 +25,7 @@ const stats: (StatItem & { icon: any })[] = [
 
   {
     value: "60%",
-    label: "Maximum hiring ROI",
+    label: "Maximize hiring ROI",
     description: "Reduced cost per hire",
     icon: DollarSign,
   },
@@ -52,7 +52,7 @@ export const Benefits: React.FC = () => {
             </h2>
             <p className="text-gray-300 text-lg">
               Optarix Research provides outcomes that fundamentally improve your
-              recruitment ROI — through a process engineered for speed.
+              recruitment ROI.
             </p>
           </Reveal>
         </div>

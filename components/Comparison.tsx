@@ -72,7 +72,7 @@ export const Comparison: React.FC = () => {
                     size={20}
                   />
                   <span className="text-gray-700 font-medium">
-                    <strong>Tech-enabled</strong>, deep-market sourcing
+                    Tech-enabled, deep-market sourcing
                   </span>
                 </li>
                 <li className="flex items-start space-x-3">

@@ -27,13 +27,13 @@ export const Hero: React.FC = () => {
         <div className="text-white space-y-8">
           <Reveal delay={200}>
             <h1 className="text-4xl md:text-6xl font-heading font-bold leading-tight">
-              Stop Searching{" "}
+              Engineering{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-optarix-cyan to-optarix-purple">
-                Start Engineering
+                Outcomes
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-heading font-semibold mt-2 text-gray-200">
-              Specialist-Led. Research-Driven. Outcome-Focused Executive Search
+              Research-Driven Executive Search
               And Recruitment
             </h2>
           </Reveal>

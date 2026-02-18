@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               Intelligence-Led Executive Search & Recruitment. 
               Predictable outcomes, scalable speed, and exceptional quality for modern enterprises
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a
                 href="https://www.linkedin.com/in/sanjveen-singh-878715b2/"
                 target="_blank"
@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
               >
                 <Linkedin size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
