@@ -25,7 +25,7 @@ const stats: (StatItem & { icon: any })[] = [
 
   {
     value: "60%",
-    label: "Maximize hiring ROI",
+    label: "Amplify hiring returns",
     description: "Reduced cost per hire",
     icon: DollarSign,
   },

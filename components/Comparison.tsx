@@ -108,7 +108,7 @@ export const Comparison: React.FC = () => {
                     size={20}
                   />
                   <span className="text-gray-700 font-medium">
-                    Quick search completion
+                    prompt turnaround
                   </span>
                 </li>
               </ul>
