@@ -13,7 +13,7 @@ ReactDOM.createRoot(rootElement).render(
       style={{
         width: "100vw",
         height: "100vh",
-        background: "url('/nature-backgroud.png') center center / cover no-repeat",
+        background: "url('/nature-background.png') center center / cover no-repeat",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
